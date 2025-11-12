@@ -1,0 +1,144 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 30px;
+	min-height: 100vh;
+}
+
+.heroTitle h1 {
+	font-size: 36pt;
+}
+
+.hero {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 50vh;
+	padding: 20px;
+	margin: 50px auto;
+}
+
+.heroContent {
+	position: relative;
+	z-index: 20;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.heroContentInner {
+	background-image: linear-gradient(
+		180deg,
+		rgba(26, 112, 140),
+		rgba(99, 164, 158)
+	);
+	border: transparent;
+	border-radius: 5px;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.heroContentInner h1,
+p {
+	color: #f0f0f0;
+}
+
+.heroContentInner h1 {
+	font-size: 32pt;
+}
+
+.heroContentInner p {
+	font-size: x-large;
+}
+
+.heroImage {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.heroImage img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.tagCategory {
+	background-color: rgba(210, 129, 97);
+	color: #f0f0f0;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: fit-content;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.tagCategory p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.heroContentOuter p {
+	color: rgb(110, 108, 108);
+	font-size: 16pt;
+}
+
+.card {
+	max-width: 25%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(248, 248, 255);
+	border: 2px solid rgb(196, 196, 196);
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.cardHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.postType p {
+	color: rgb(139, 137, 137);
+}
+
+.cardContentBody p {
+	color: #333;
+}
+
+.cardFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.cardFooter p {
+	color: rgb(196, 196, 196);
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	gap: 5%;
+}
